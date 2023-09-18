@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="registration.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <!-- <li><a href="product.html">Products</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="row page_wrap">
+            <!-- page wrap -->
+            <div class="row">
+                <div class="six columns"> <img src="" alt=""> </div>
+                <div class="six columns">
+                  <div class="panel">
+                    <h3>Product Price calculator</h3>
+                    <p style="font-style: italic; font-family: 'Times New Roman', Times, serif">Example only. Not included</p>
+                    <form name="product_list" action="#">
+                      <label><strong>Width (cm)</strong></label>
+                      <input name="width" id="width" value="15" class="input_title_invoice" type="text">
+                      <p></p>
+                      <label><strong>Height (cm)</strong></label>
+                      <input name="length" id="length" value="20" class="input_title_invoice" type="text">
+                      <p></p>
+                      <label style="font-weight:bold;">Extras</label>
+                      <select name="print">
+                        <option value="1100">Cheese</option>
+                        <option value="2900">Vegetables</option>
+                        <option value="1600">Potatos</option>
+                      </select>
+                      <p style="font-size: 11px; padding: 0 0 11px; margin-top: 9px"> <strong>*Cheese:</strong> Some description text goes here.<br>
+                        <strong>*Vegetables:</strong> Some description text goes here.<br>
+                        <strong>*Potatos:</strong> Some description text goes here. </p>
+                      <input name="unit_price" id="unit_price" value="340.00" type="hidden">
+                      <input value="271" name="sales_price" id="total_item" type="hidden">
+                      <p style="font-size: 24px">Totals: <span id="grandTotal">$391</span></p>
+                    </form>
+                  </div>
+                  <!-- end panel -->
+                </div>
+              </div>
+              <!-- end row -->
+              <h4>Product Info</h4>
+              <div class="row">
+                <div class="twelve columns">
+                  <dl class="tabs three-up">
+                    <dd class="active"><a href="#simple1">Overview</a></dd>
+                    <dd><a href="#simple2">Spesifications</a></dd>
+                    <dd><a href="#simple3">Customer Reviews</a></dd>
+                  </dl>
+                  <ul class="tabs-content">
+                    <li class="active" id="simple1Tab">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum porttitor lacus, eget commodo turpis laoreet at. Donec pretium, enim ut tempor mattis, nisi nunc dapibus dui, et ultricies odio justo a elit.</p>
+                      <ul>
+                        <li>Lorem</li>
+                        <li>Ipsum</li>
+                        <li>Dolor</li>
+                      </ul>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum porttitor lacus, eget commodo turpis laoreet at. Donec pretium, enim ut tempor mattis, nisi nunc dapibus dui, et ultricies odio justo a elit.</p>
+                    </li>
+                    <li id="simple2Tab">Some content</li>
+                    <li id="simple3Tab">
+                      <p><strong>James:</strong> Amazing Product</p>
+                      <p><strong>Sarah:</strong> Ok Product</p>
+                      <p><strong>Terry:</strong> The shoes were good, i would like to reccommend some</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="twelve columns">
+                  <ul id="menu3" class="footer_menu horizontal">
+                    <li ><a href="index.html">Home</a></li>
+                  </ul>
+                  <script>$('ul#menu3').nav-bar();</script>
+                </div>
+              </div>
+            </div>
+            <!-- end page wrap) -->
+          </div>
+          
+    </main>
+    <footer>
+        <p>&copy; 2023 GHOST
+    </footer>
+</body>
+</html>

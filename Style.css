@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+body, h1, h2, p{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+body{
+    /* display: flex; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    /* background-image: url('./images/wallpaper.jpg'); */
+
+    background-image: repeating-linear-gradient( #6db784, #ffffff, #f9e45b, #1b4d89);
+}
+header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #1b4d89;
+    color: #ffffff;
+    padding: 1rem 0;
+    align-content: right;
+    justify-content: right;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+
+    }
+ li{
+    list-style: none;
+    margin-right: 5px;
+    padding: 2px;
+    }
+.name{
+    margin-right: 1000px;
+    margin-top: 0;
+    left: 0;
+    font-size: 5;
+    font-family: cursive;
+    /* font-weight: 100; */
+}
+
+nav a{
+    
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+a:hover{
+    color: aqua;
+}
+footer{
+    /* display: flex; */
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #1b4d89;
+    color: #fff;
+    margin-top: 200px;
+}
+main{
+    display: flex;
+    background-image: url('neymar.jpg');
+    background-size: contain;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.name{
+    margin-bottom: 20px;
+}
+#ney{
+    display: flex;
+    width: 894px;
+    height: 1247px;
+}
+.regcontainer{
+    /* padding: 16px; */
+    width: 700px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        margin-top: 20px;
+        padding: 90px;
+        background:  #6db784;
+        color: #f1f1f1;
+        border-radius: 15px ;
+        align-self: center;
+        justify-self: center;
+        margin-left: 300px;
+}
+input[type=text]:focus, input[type=password]:focus{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+br{
+    margin-bottom: 20px;
+}
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.registerbtn{
+    background-color: #f9e45b;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.registerbtn:hover{
+opacity: 1;
+}
+.loginbtn{
+    background-color: #f9e45b;
+    color: white;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.login{
+        width: 700px;
+        overflow: hidden;
+        margin: auto;
+        margin: 10 0 0 450px;
+        padding: 90px;
+        background:   #6db784;
+        border-radius: 15px ;
+        align-self: center;
+        justify-self: center;
+        margin-left: 300px;
+        color: #f1f1f1;
+}
+.reset{
+    width: 700px;
+        overflow: hidden;
+        margin: auto;
+        margin: 10 0 0 450px;
+        padding: 90px;
+        background:  rgb(166, 252, 204);;
+        border-radius: 15px ;
+        align-self: center;
+        justify-self: center;
+        margin-left: 300px;
+}
+.submitbtn{
+    background-color: #f1e42c;
+    color: white;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
